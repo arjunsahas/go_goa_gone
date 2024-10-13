@@ -1,0 +1,5 @@
+*/*.exe
+*.idea
+*/*/target/*
+*/*/*.lock
+*.lock
