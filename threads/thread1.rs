@@ -2,7 +2,7 @@ use std::thread;
 use std::time::Duration;
 fn main() {
 
-    // rust follows 1:1 model
+    // rust follows 1:1 thread model
     thread::spawn(|| {
         for i in 1..10
         {
